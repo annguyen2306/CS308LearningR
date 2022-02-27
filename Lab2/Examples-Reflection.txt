@@ -1,0 +1,13 @@
+Examples of Strings - Reflection
+1. Java Identifiers
+Success cases: "num1", "number", "nUmber"
+Unsuccessful cases: "1num", "Number", "123", "NUMBER"
+2. Float - Integer
+"Hi I have a candy" -> converted: "Hi I have a candy"
+"Hi I have 1 candy" -> converted: "Hi I have I candy"
+"Hi I have 1.5 candy" -> converted: "Hi I have F candy"
+ "Hi I have 1.5 1 candy" -> converted: "Hi I have F I candy"
+"Hi I have 1.5.5 1 candy123" -> converted: "Hi I have 1.5.5 I candy123"
+3. For this assignment, I cannot do a Python regular expression file that can successfully recognize the arithmetic expression since the characters of these are considered to be 'bad characters' - claimed by Python. So I have not been able to draw out the fully form code but my code can only convert the strings to identify the variables and the integers along with floats.
+
+Other than that, for this week assignment I do not have any other questions or confusions need to be addressed.
